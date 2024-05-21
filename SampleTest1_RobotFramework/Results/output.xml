@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-05-20T19:59:45.974924" rpa="false" schemaversion="5">
+<suite id="s1" name="Test1" source="C:\Python\SampleTest1_RobotFramework\Tests\Test1.robot">
+<test id="s1-t1" name="Test Case 1" line="12">
+<kw name="Show our message">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-05-20T19:59:46.007681" level="INFO">Hello ALTEN family</msg>
+<arg>${Message}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-05-20T19:59:46.007681" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-05-20T19:59:45.993568" elapsed="0.014113"/>
+</kw>
+<tag>1</tag>
+<status status="PASS" start="2024-05-20T19:59:45.993568" elapsed="0.014113"/>
+</test>
+<test id="s1-t2" name="Test Case 2" line="16">
+<kw name="Show our message">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-05-20T19:59:46.007681" level="INFO">Hello ALTEN family</msg>
+<arg>${Message}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-05-20T19:59:46.007681" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-05-20T19:59:46.007681" elapsed="0.000000"/>
+</kw>
+<tag>2</tag>
+<status status="PASS" start="2024-05-20T19:59:46.007681" elapsed="0.000000"/>
+</test>
+<doc>Our first sample test titled: "Hello ALTEN family"</doc>
+<status status="PASS" start="2024-05-20T19:59:45.974924" elapsed="0.032757"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">1</stat>
+<stat pass="1" fail="0" skip="0">2</stat>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Test1">Test1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
